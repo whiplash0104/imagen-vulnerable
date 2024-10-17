@@ -68,7 +68,6 @@ RUN set -eux \
 	&& apt-get update \
 	&& apt-get install -y --no-install-recommends --no-install-suggests \
 		iputils-ping \
-		netcat \
 		python3 \
 		strace \
 		sudo \
